@@ -2,12 +2,13 @@ package com.leyou.item.service;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.leyou.item.pojo.Brand;
 import com.leyou.commmon.pojo.PageResult;
 import com.leyou.item.mapper.BrandMapper;
+import com.leyou.item.pojo.Brand;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.List;
@@ -39,5 +40,15 @@ public class BrandService  {
         PageInfo<Brand> pageInfo = new PageInfo<>(brands);
 //     包装分页结果返回
         return new PageResult<>(pageInfo.getTotal(),pageInfo.getList());
+    }
+    @Transactional
+    public void saveBrand(Brand brand, List<Long> cids) {
+//        新增BRAND
+        this.brandMapper.insertSelective(brand);
+//        新增中间表
+            cids.forEach(cid ->{
+                this.brandMapper.insertCategoryAndBrand(cid,brand.getId());
+            });
+
     }
 }
