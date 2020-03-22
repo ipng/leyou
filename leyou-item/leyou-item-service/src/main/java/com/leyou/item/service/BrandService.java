@@ -1,7 +1,6 @@
 package com.leyou.item.service;
 
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
+import com.github.pagehelper.*;
 import com.leyou.commmon.pojo.PageResult;
 import com.leyou.item.mapper.BrandMapper;
 import com.leyou.item.pojo.Brand;
@@ -50,5 +49,10 @@ public class BrandService  {
                 this.brandMapper.insertCategoryAndBrand(cid,brand.getId());
             });
 
+    }
+
+    public List<Brand> queryBrandsByCid(Long cid) {
+
+        return this.brandMapper.selectBrandsByCid(cid);
     }
 }

@@ -3,7 +3,7 @@ package com.leyou.item.service;
 
 import com.github.pagehelper.*;
 import com.leyou.commmon.pojo.PageResult;
-import com.leyou.item.bo.SpuBo;
+import com.leyou.item.bo.*;
 import com.leyou.item.mapper.*;
 import com.leyou.item.pojo.*;
 import org.apache.commons.lang.StringUtils;
@@ -31,6 +31,10 @@ public class GoodsService {
 
     @Autowired
     private CategoryService categoryService;
+    @Autowired
+    private SkuMapper skuMapper;
+    @Autowired
+    private StockMapper stockMapper;
 
     public PageResult<SpuBo> querySpuByPage(String key, Boolean saleable, Integer page, Integer rows) {
         Example example=new Example(Spu.class);
@@ -62,5 +66,33 @@ public class GoodsService {
         }).collect(Collectors.toList());
 //        返回pageresult
             return new PageResult<>(pageInfo.getTotal(),spuBos);
+    }
+
+    public void saveGoods(SpuBo spuBo) {
+//        先新增SPU
+        spuBo.setId(null);
+        spuBo.setSaleable(true);
+        spuBo.setValid(false);
+        spuBo.setCreateTime(new Date());
+        spuBo.setLastUpdateTime(spuBo.getCreateTime());
+        this.spuMapper.insertSelective(spuBo);
+//        再新增spuDetail
+        SpuDetail spuDetail = spuBo.getSpuDetail();
+        spuDetail.setSpuId(spuBo.getId());
+        this.spuDetailMapper.insertSelective(spuDetail);
+
+//        新增sku
+        spuBo.getSkus().forEach(sku -> {
+            sku.setId(null);
+            sku.setSpuId(spuBo.getId());
+            sku.setCreateTime(new Date());
+            sku.setLastUpdateTime(sku.getCreateTime());
+            skuMapper.insertSelective(sku);
+//        新增stock
+            Stock stock = new Stock();
+            stock.setSkuId(sku.getId());
+            stock.setStock(sku.getStock());
+            this.stockMapper.insertSelective(stock);
+        });
     }
 }
