@@ -2,12 +2,17 @@ package com.leyou.search.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.leyou.commmon.pojo.PageResult;
 import com.leyou.item.pojo.*;
 import com.leyou.search.client.*;
-import com.leyou.search.pojo.Goods;
+import com.leyou.search.pojo.*;
+import com.leyou.search.repository.GoodsRepository;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
+import org.elasticsearch.index.query.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.*;
+import org.springframework.data.elasticsearch.core.query.*;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -30,6 +35,9 @@ public class SearchService {
 
     @Autowired
     private SpecificationClient specificationClient;
+
+    @Autowired
+    private GoodsRepository goodsRepository;
 
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
@@ -60,17 +68,17 @@ public class SearchService {
         Map<String, List<Object>> specialSpecMap = MAPPER.readValue(spuDetail.getSpecialSpec(), new TypeReference<Map<String, List<Object>>>() {
         });
 
-        Map<String,Object> specs =new HashMap<>();
-        params.forEach(param->{
-            if (param.getGeneric()){
+        Map<String, Object> specs = new HashMap<>();
+        params.forEach(param -> {
+            if (param.getGeneric()) {
                 String value = genericSpecMap.get(param.getId().toString()).toString();
-                if (param.getNumeric()){
+                if (param.getNumeric()) {
                     value = chooseSegment(value, param);
                 }
-                specs.put(param.getName(),value);
-            }else {
+                specs.put(param.getName(), value);
+            } else {
                 List<Object> value = specialSpecMap.get(param.getId().toString());
-                specs.put(param.getName(),value);
+                specs.put(param.getName(), value);
             }
         });
 
@@ -87,6 +95,7 @@ public class SearchService {
         goods.setSpecs(specs);
         return goods;
     }
+
     private String chooseSegment(String value, SpecParam p) {
         double val = NumberUtils.toDouble(value);
         String result = "其它";
@@ -112,5 +121,23 @@ public class SearchService {
             }
         }
         return result;
+    }
+
+    public PageResult<Goods> search(SearchRequest request) {
+        if (StringUtils.isBlank(request.getKey())) {
+            return null;
+        }
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+
+        queryBuilder.withQuery(QueryBuilders.matchQuery("all", request.getKey()).operator(Operator.AND));
+
+        queryBuilder.withPageable(PageRequest.of(request.getPage() - 1, request.getSize()));
+
+        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{"id","skus","subTitle"},null));
+
+        Page<Goods> goodsPage = this.goodsRepository.search(queryBuilder.build());
+
+        return new PageResult<>(goodsPage.getTotalElements(),goodsPage.getTotalPages(),goodsPage.getContent());
+
     }
 }

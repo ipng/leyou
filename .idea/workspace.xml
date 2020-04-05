@@ -1,435 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62c1a2b9-c006-4214-862e-375176e6d061" name="Default Changelist" comment="1.0.0">
-      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/BrandApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/CategoryApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/SpecificationApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/target/classes/META-INF/leyou-item-interface.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/dictionaries/HADES.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/leyou-portal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/copyright.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/material.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-JD-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-addressList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-cooperation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-getOrderInfo.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-login-manage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-myOrder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-pay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-payfail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-paysuccess.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-sampling.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-seckill-index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-seckill-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-seckillOrder.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-shop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-shoplogin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-success-cart.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-weixinpay.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/pages-zoom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/vuetify.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/webbase.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/widget-cartPanelView.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/css/widget-jquery.autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-moon.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-moon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-moon.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-moon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-pc.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-pc.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-pc.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-pc.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-tb.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-tb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-tb.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-tb.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-touch.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-touch.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-touch.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-touch.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/foot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/getOrderInfo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-order-evaluate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-order-pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-order-receive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-order-send.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-orderDetail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-person-collect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-person-footmark.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-setting-address-complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-setting-address-phone.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-setting-address.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-setting-info.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home-setting-safe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/57b51ea9Nb862ca5e.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/b1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/buy001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/buy002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/buy01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/cooperation_banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/down-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/dp01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/dp02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/dp03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/dp04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/empty_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/erweima.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/fail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/gocart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/gocart01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/gotop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/icon-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/intro01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/intro02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/intro03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/itemlike01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/itemlike02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/itemlike03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/itemlike04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/itemlike05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/itemlike06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/l-m01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/list.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/login-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/manage-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/mobile01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/mobile02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/mobile03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/mobile04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/mobile05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/mobile06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/part01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/part02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/part03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/pay5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/phone14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/photo_icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/sampling_head.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/seckillbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/shi_heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/shop-intro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/shop-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/shop-part.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/title_bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/_/y24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/ad.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/ad1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/ali.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/itemlike/itemlike01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/itemlike/itemlike02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/itemlike/itemlike03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/itemlike/itemlike04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/itemlike/itemlike05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/itemlike/itemlike06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/fail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay14.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay15.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay16.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay17.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay18.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay19.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay22.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/pay5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/pay/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/dp01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/dp02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/dp03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/dp04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/intro01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/intro02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/intro03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/l-m01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/mobile01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/mobile02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/mobile03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/mobile04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/mobile05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/mobile06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/part01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/part02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/part03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/phone/phone14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/success-cart/buy001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/success-cart/buy002.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/success-cart/buy01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/success-cart/gocart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/success-cart/gocart01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/zoom/b1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/zoom/b2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/zoom/b3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/zoom/s1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/zoom/s2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/assets/img/zoom/s3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/banner1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/banner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/banner2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/banner3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/banner3x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/banner4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/barrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand08.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_07.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_09.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/brand_21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/cartPanelViewIcons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/choosed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/clock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/duihuan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/erweima.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/floor-1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/floor-1-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/floor-1-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/floor-1-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/floor-1-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/floor-1-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/floor-1-b01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/floor-1-b02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/floor-1-b03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/goods.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/icon-red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/interest01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/interest02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/interest03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/interest04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/interest05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/interest06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like_04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like_05.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/like_06.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/linker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/lock.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/loginbg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/mod-list.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/phone-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/qq.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/quan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/sina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/today01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/today02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/today03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/today04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/weixin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/wx_cz.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/img/zoom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/items/4/5/145.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/items/8/1/81.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/axios.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/czFunction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/model/cartModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/addressList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/getOrderInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/jquery.slideunlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/login-manage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/person-collect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/person-footmark.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/seckill-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/shoplogin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/shortcut.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/sm-city-picker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/pages/top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/birthday/birthday.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/citypicker/distpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery/jquery.cookie.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/qs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/sui/sui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/upload/uploadPreview.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/qrcode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/vue/vue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/vue/vue.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/vue/vuetify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/widget/cartPanelView.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/widget/jquery.autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/widget/nav-portal-top.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/js/widget/nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/pay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/payfail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/paysuccess.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/normalize/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/sui/sui-append.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/sui/sui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/plugins/sui/sui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/seckill-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/seckill-item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/shortcut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/side.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/success-cart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-portal/top.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/leyou-search.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/LeyouSearchApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/BrandClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/CategoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/GoodsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/SpecificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/repository/GoodsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-search/src/test/java/com/leyou/elasticsearch/test/ElasticsearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="62c1a2b9-c006-4214-862e-375176e6d061" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/controller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfigration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leyou-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/BrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/BrandService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/target/classes/com/leyou/item/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-upload/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-upload/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-upload/src/test/java/com/leyou/upload/test/FastDFSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-upload/src/test/java/com/leyou/upload/test/FastDFSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-upload/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-upload/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-upload/target/test-classes/com/leyou/upload/test/FastDFSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-upload/target/test-classes/com/leyou/upload/test/FastDFSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-gateway/target/classes/com/leyou/gateway/config/LeyouCorsConfigration.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/target/classes/com/leyou/gateway/config/LeyouCorsConfigration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/.idea/dictionaries/HADES.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/.idea/leyou-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/.idea/leyou-portal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/copyright.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/copyright.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/material.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/material.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/pages-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/pages-cart.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/pages-getOrderInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/pages-getOrderInfo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/pages-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/pages-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/pages-login.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/pages-login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/pages-payfail.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/pages-payfail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/pages-paysuccess.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/pages-paysuccess.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/pages-register.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/pages-register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/pages-seckillOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/pages-seckillOrder.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/pages-weixinpay.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/pages-weixinpay.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/vuetify.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/vuetify.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/webbase.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/webbase.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/css/widget-jquery.autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/css/widget-jquery.autocomplete.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/fonts/icon-moon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-moon.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/fonts/icon-pc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-pc.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/fonts/icon-tb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-tb.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/fonts/icon-touch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/fonts/icon-touch.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/foot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/getOrderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/getOrderInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-order-evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-order-evaluate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-order-pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-order-pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-order-receive.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-order-receive.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-order-send.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-order-send.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-orderDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-orderDetail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-person-collect.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-person-collect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-person-footmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-person-footmark.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-setting-address-complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-setting-address-complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-setting-address-phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-setting-address-phone.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-setting-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-setting-address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-setting-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-setting-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home-setting-safe.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home-setting-safe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/items/4/5/145.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/items/4/5/145.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/items/8/1/81.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/items/8/1/81.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/axios.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/czFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/czFunction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/model/cartModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/model/cartModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/addressList.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/addressList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/city-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/city-picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/getOrderInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/getOrderInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/jquery.slideunlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/jquery.slideunlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/login-manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/login-manage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/person-collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/person-collect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/person-footmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/person-footmark.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/seckill-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/seckill-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/shop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/shoplogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/shoplogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/shortcut.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/shortcut.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/sm-city-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/sm-city-picker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/pages/top.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/pages/top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/birthday/birthday.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/birthday/birthday.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/citypicker/distpicker.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/citypicker/distpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/citypicker/distpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery-placeholder/jquery.placeholder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery.easing/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery.jqzoom/jquery.jqzoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery.jqzoom/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery/jquery.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery/jquery.cookie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/qs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/sui/sui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/sui/sui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/plugins/upload/uploadPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/plugins/upload/uploadPreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/qrcode.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/vue/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/vue/vue.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/vue/vue.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/vue/vuetify.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/vue/vuetify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/widget/cartPanelView.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/widget/cartPanelView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/widget/jquery.autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/widget/jquery.autocomplete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/widget/nav-portal-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/widget/nav-portal-top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/js/widget/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/js/widget/nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/pay.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/payfail.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/payfail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/paysuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/paysuccess.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/cssgrids/cssgrids-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/jquery-placeholder/jquery.placeholder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/jquery.easing/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/jquery.jqzoom/jquery.jqzoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/jquery.jqzoom/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/jquery/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/normalize/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/normalize/normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/sui/sui-append.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/sui/sui-append.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/sui/sui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/sui/sui.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/plugins/sui/sui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/plugins/sui/sui.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/seckill-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/seckill-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/seckill-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/seckill-item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/shortcut.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/shortcut.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/side.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/side.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/success-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/success-cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-portal/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-portal/top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-search/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-search/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/service/SearchService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/service/SearchService$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/service/SearchService$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/service/SearchService$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/service/SearchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-search/target/classes/com/leyou/search/service/SearchService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -460,61 +158,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java">
+        <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/SearchRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="76">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/CategoryClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/CategoryApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/BrandApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#745#746#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leyou-search/src/test/java/com/leyou/elasticsearch/test/ElasticsearchTest.java">
+        <entry file="file://$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfigration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+            <state relative-caret-position="157">
+              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -523,33 +189,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/LeyouSearchApplication.java">
+        <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/controller/SearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-search/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="233">
+              <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -558,10 +201,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/SpecificationApi.java">
+        <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="214">
+              <caret line="135" column="73" lean-forward="true" selection-start-line="135" selection-start-column="73" selection-end-line="135" selection-end-column="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -571,8 +226,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -588,10 +243,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/LeyouUploadApplication.java" />
-        <option value="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/upload/controller/UploadController.java" />
-        <option value="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfigration.java" />
-        <option value="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/upload/config/LeyouCorsConfiguration.java" />
         <option value="$PROJECT_DIR$/leyou-upload/pom.xml" />
         <option value="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/upload/config/FastClientImporter.java" />
         <option value="$PROJECT_DIR$/leyou-upload/src/main/java/com/leyou/upload/service/UploadService.java" />
@@ -634,11 +285,15 @@
         <option value="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/BrandClient.java" />
         <option value="$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml" />
         <option value="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java" />
-        <option value="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java" />
         <option value="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/repository/GoodsRepository.java" />
         <option value="$PROJECT_DIR$/leyou-search/src/test/java/com/leyou/elasticsearch/test/ElasticsearchTest.java" />
-        <option value="$PROJECT_DIR$/leyou-search/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/CategoryApi.java" />
+        <option value="$PROJECT_DIR$/leyou-search/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" />
+        <option value="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java" />
+        <option value="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfigration.java" />
+        <option value="$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/controller/SearchController.java" />
       </list>
     </option>
   </component>
@@ -689,6 +344,59 @@
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
               <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -725,27 +433,6 @@
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="leyou" type="462c0819:PsiDirectoryNode" />
               <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
               <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -779,43 +466,7 @@
               <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
@@ -842,15 +493,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
@@ -911,31 +553,18 @@
               <item name="leyou-search" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou-search" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leyou" type="462c0819:PsiDirectoryNode" />
-              <item name="leyou-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -952,10 +581,10 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586063086532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586081710017" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/leyou-portal" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -1124,9 +753,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ElasticsearchTest.test" />
         <item itemvalue="Spring Boot.LeyouGatewayApplication" />
         <item itemvalue="Spring Boot.LeyouRegistryApplication" />
+        <item itemvalue="JUnit.ElasticsearchTest.test" />
         <item itemvalue="JUnit.FastDFSTest.testUploadAndCreateThumb" />
         <item itemvalue="JUnit.FastDFSTest.testUpload" />
       </list>
@@ -1166,14 +795,21 @@
       <workItem from="1585662720902" duration="99000" />
       <workItem from="1585742778633" duration="2741000" />
       <workItem from="1585755157747" duration="503000" />
-      <workItem from="1586047500606" duration="9413000" />
+      <workItem from="1586047500606" duration="14352000" />
+      <workItem from="1586076582041" duration="2180000" />
+      <workItem from="1586078942135" duration="3153000" />
     </task>
+    <task id="LOCAL-00001" summary="1.1.1">
+      <created>1586063286651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586063286651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FastDFSTest_testUploadAndCreateThumb - 2020.04.01 at 20h 20m 25s.xml">
-      <configuration name="FastDFSTest.testUploadAndCreateThumb" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FastDFSTest_testUpload - 2020.04.01 at 20h 21m 38s.xml">
       <configuration name="FastDFSTest.testUpload" configurationId="JUnit" />
     </history-entry>
@@ -1201,9 +837,12 @@
     <history-entry file="ElasticsearchTest_test - 2020.04.05 at 13h 02m 29s.xml">
       <configuration name="ElasticsearchTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ElasticsearchTest_test - 2020.04.05 at 13h 10m 27s.xml">
+      <configuration name="ElasticsearchTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96180000" />
+    <option name="totallyTimeSpent" value="106452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1217,7 +856,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.2604404" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49759614" visible="true" weight="0.18678816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -1228,24 +867,24 @@
       <window_info id="Web" order="8" sideWeight="0.50240386" side_tool="true" weight="0.23386484" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32419354" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32419354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32419354" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32741934" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49658313" weight="0.32580644" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32580644" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49658313" weight="0.32419354" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.32903227" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50265753" side_tool="true" weight="0.32419354" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49962035" weight="0.2564516" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.49962035" weight="0.25603864" />
       <window_info anchor="bottom" id="JRebel Executor" order="14" />
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="16" weight="0.32419354" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" weight="0.32903227" />
       <window_info anchor="bottom" id="Messages" order="18" sideWeight="0.49962035" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.49734244" weight="0.2580645" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.49734244" visible="true" weight="0.32419354" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1356,7 +995,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0.0" />
+    <MESSAGE value="1.1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.1.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1373,78 +1013,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/SpecParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#560#561#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1104#1105#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1453#1454#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/SpuMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/LeyouItemApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/pojo/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/mapper/BrandMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1705,20 +1273,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1158">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-upload/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1757,30 +1318,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/client/GoodsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/client/CategoryClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/client/SpecificationClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/client/GoodsClient.java" />
+    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/client/CategoryClient.java" />
+    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/client/SpecificationClient.java" />
     <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/BrandService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="950">
@@ -1793,20 +1333,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/client/BrandClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/client/BrandClient.java" />
+    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/client.java" />
     <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/client/BrandClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -1822,18 +1350,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171" />
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/BrandController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1850,12 +1378,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-search/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1911,20 +1439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-registry/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/repository/GoodsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1945,31 +1459,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/LeyouSearchApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#471#472#0" expanded="true" />
             <element signature="e#538#539#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1994,7 +1491,7 @@
     <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="46" column="24" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="24" />
+          <caret line="46" column="24" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2017,7 +1514,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/GoodsApi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
+        <state relative-caret-position="198">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2034,8 +1531,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leyou-search/src/test/java/com/leyou/elasticsearch/test/ElasticsearchTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="41" column="25" lean-forward="true" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="195">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/LeyouGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-item/leyou-item-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-registry/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/pojo/SearchRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="22" column="71" selection-start-line="22" selection-start-column="71" selection-end-line="22" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-search/src/main/java/com/leyou/search/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="135" column="73" lean-forward="true" selection-start-line="135" selection-start-column="73" selection-end-line="135" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfigration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

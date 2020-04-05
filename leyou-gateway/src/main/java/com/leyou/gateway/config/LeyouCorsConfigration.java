@@ -1,9 +1,7 @@
 package com.leyou.gateway.config;
 
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import org.springframework.context.annotation.*;
+import org.springframework.web.cors.*;
 import org.springframework.web.filter.CorsFilter;
 
 /**
@@ -17,6 +15,7 @@ public class LeyouCorsConfigration {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
 //        允许跨域的域名，如果要携带COOKIE，不能写*。*代表所以域名都可以跨越访问
         corsConfiguration.addAllowedOrigin("http://manage.leyou.com");
+        corsConfiguration.addAllowedOrigin("http://www.leyou.com");
 //        允许携带COOKIE
         corsConfiguration.setAllowCredentials(true);
 //        带*的就代表所有的请求方法
@@ -30,3 +29,11 @@ public class LeyouCorsConfigration {
 
     }
 }
+//@SpringBootApplication
+//@EnableDiscoveryClient
+//@EnableZuulProxy
+//public class LeyouCorsConfigration {
+//    public static void main(String[] args) {
+//        SpringApplication.run(LeyouCorsConfigration.class);
+//    }
+//}

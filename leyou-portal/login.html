@@ -109,25 +109,9 @@
         },
         methods:{
             login(){
-                leyou.http.post("/auth/login",leyou.stringify(this.form))
+                leyou.http.post("/auth/accredit",leyou.stringify(this.form))
                     .then(resp => {
-                        if(resp.status === 204){
-
-                            if(ly.store.get("carts")!=null){
-                                let carts=ly.store.get("carts");
-                                carts.forEach(s => {
-                                    leyou.http.post("/cart", {
-                                        skuId: s.id,
-                                        title: s.title,
-                                        image: s.images[0],
-                                        price: s.price,
-                                        num: s.num,
-                                        ownSpec: JSON.stringify(s.ownSpec)
-                                    })
-                                });
-                                ly.store.del("carts");
-                            }
-
+                        if(resp.status === 200){
                             const url = leyou.getUrlParam("returnUrl");
                             window.location = url || 'http://www.leyou.com';
                         }
