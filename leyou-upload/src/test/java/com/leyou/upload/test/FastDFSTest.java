@@ -39,7 +39,7 @@ public class FastDFSTest {
     @Test
     public void testUploadAndCreateThumb() throws FileNotFoundException {
         //找一张本地图片路径
-        File file = new File("C:\\Users\\57218\\Desktop\\leyou\\99.jpg");
+        File file = new File("D:\\git\\leyou\\99.jpg");
         // 上传并且生成缩略图
         StorePath storePath = this.storageClient.uploadImageAndCrtThumbImage(
                 new FileInputStream(file), file.length(), "jpeg", null);
