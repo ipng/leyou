@@ -13,3 +13,6 @@ zuul:
   routes:
     item-service: /item/** # 商品微服务的映射路径
     search-service: /search/** #路由到搜索的微服务
+#  ribbon:        #设置ribbon的超时时间小于zuul的超时时间
+#      ReadTimeout: 10000
+#      ConnectTimeout: 10000

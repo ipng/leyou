@@ -2,7 +2,6 @@ package com.leyou.search.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.leyou.commmon.pojo.PageResult;
 import com.leyou.item.pojo.*;
 import com.leyou.search.client.*;
 import com.leyou.search.pojo.*;
@@ -10,13 +9,18 @@ import com.leyou.search.repository.GoodsRepository;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
 import org.elasticsearch.index.query.*;
+import org.elasticsearch.search.aggregations.*;
+import org.elasticsearch.search.aggregations.bucket.terms.*;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.*;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.elasticsearch.core.aggregation.AggregatedPage;
 import org.springframework.data.elasticsearch.core.query.*;
 import org.springframework.stereotype.Service;
+import org.springframework.util.CollectionUtils;
 
 import java.io.IOException;
 import java.util.*;
+import java.util.stream.Collectors;
 
 /**
  * Created by Enzo Cotter on 2020/4/5.
@@ -123,21 +127,93 @@ public class SearchService {
         return result;
     }
 
-    public PageResult<Goods> search(SearchRequest request) {
+    public SearchResult search(SearchRequest request) {
         if (StringUtils.isBlank(request.getKey())) {
             return null;
         }
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
 
-        queryBuilder.withQuery(QueryBuilders.matchQuery("all", request.getKey()).operator(Operator.AND));
+        QueryBuilder basicQuery = QueryBuilders.matchQuery("all", request.getKey()).operator(Operator.AND);
+
+        queryBuilder.withQuery(basicQuery);
+
+
 
         queryBuilder.withPageable(PageRequest.of(request.getPage() - 1, request.getSize()));
 
-        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{"id","skus","subTitle"},null));
+        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{"id", "skus", "subTitle"}, null));
 
-        Page<Goods> goodsPage = this.goodsRepository.search(queryBuilder.build());
+        String categoryAggName = "categories";
+        String branAggName = "brands";
+        queryBuilder.addAggregation(AggregationBuilders.terms(categoryAggName).field("cid3"));
+        queryBuilder.addAggregation(AggregationBuilders.terms(branAggName).field("brandId"));
 
-        return new PageResult<>(goodsPage.getTotalElements(),goodsPage.getTotalPages(),goodsPage.getContent());
+        AggregatedPage<Goods> goodsPage = (AggregatedPage<Goods>) this.goodsRepository.search(queryBuilder.build());
+
+        List<Map<String, Object>> categories = getCategoryAggResult(goodsPage.getAggregation(categoryAggName));
+        List<Brand> brands = getBrandAggResult(goodsPage.getAggregation(branAggName));
+        List<Map<String, Object>> specs=null;
+        if (!CollectionUtils.isEmpty(categories) && categories.size() == 1) {
+            specs= getParamAggResult((Long)categories.get(0).get("id"),basicQuery);
+        }
+
+        return new SearchResult(goodsPage.getTotalElements(), goodsPage.getTotalPages(), goodsPage.getContent(), categories, brands, specs);
+
+    }
+
+    private List<Map<String, Object>> getParamAggResult(Long cid, QueryBuilder basicQuery) {
+        NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
+        queryBuilder.withQuery(basicQuery);
+        List<SpecParam> params =this.specificationClient.queryParams(null, cid,null,true);
+        params.forEach(param->{
+            queryBuilder.addAggregation(AggregationBuilders.terms(param.getName()).field("specs."+param.getName()+".keyword"));
+        });
+        queryBuilder.withSourceFilter(new FetchSourceFilter(new String[]{},null));
+
+        AggregatedPage<Goods> goodsPage = (AggregatedPage<Goods>) this.goodsRepository.search(queryBuilder.build());
+        List<Map<String,Object>> specs=new ArrayList<>();
+
+        Map<String, Aggregation> aggregationMap = goodsPage.getAggregations().asMap();
+
+        for (Map.Entry<String, Aggregation> entry : aggregationMap.entrySet()) {
+            Map<String,Object> map=new HashMap<>();
+            map.put("k",entry.getKey());
+            List<String> options=new ArrayList<>();
+            StringTerms terms = (StringTerms) entry.getValue();
+            terms.getBuckets().forEach(bucket -> {
+                options.add(bucket.getKeyAsString());
+            });
+            map.put("options",options);
+            specs.add(map);
+        }
+        return specs;
+    }
+
+    private List<Brand> getBrandAggResult(Aggregation aggregation) {
+        LongTerms terms = (LongTerms) aggregation;
+        return terms.getBuckets().stream().map(bucket -> {
+            return this.brandClient.queryBrandByid(bucket.getKeyAsNumber().longValue());
+        }).collect(Collectors.toList());
+//        List<Brand> brands=new ArrayList<>();
+//        terms.getBuckets().forEach(bucket -> {
+//            Brand brand = this.brandClient.queryBrandByid(bucket.getKeyAsNumber().longValue());
+//            brands.add(brand);
+//
+//        });
+//        return brands;
+    }
+
+    private List<Map<String, Object>> getCategoryAggResult(Aggregation aggregation) {
+        LongTerms terms = (LongTerms) aggregation;
+
+         return terms.getBuckets().stream().map(bucket -> {
+            Map<String, Object> map = new HashMap<>();
+            Long id = bucket.getKeyAsNumber().longValue();
+            List<String> names = this.categoryClient.queryNameByIds(Arrays.asList(id));
+            map.put("id", id);
+            map.put("name", names.get(0));
+            return map;
+        }).collect(Collectors.toList());
 
     }
 }

@@ -2,126 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6890f9f0-a60e-4918-bd6a-d6dd9b9ea3df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/controller/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfigration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-gateway/src/main/java/com/leyou/gateway/config/LeyouCorsConfigration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-gateway/target/classes/com/leyou/gateway/config/LeyouCorsConfigration.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-gateway/target/classes/com/leyou/gateway/config/LeyouCorsConfigration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/HADES.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leyou-portal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leyou-portal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copyright.html" beforeDir="false" afterPath="$PROJECT_DIR$/copyright.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/material.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/material.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-getOrderInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-getOrderInfo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-payfail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-payfail.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-paysuccess.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-paysuccess.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-register.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-seckillOrder.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-seckillOrder.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pages-weixinpay.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/pages-weixinpay.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/vuetify.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/vuetify.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/webbase.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/webbase.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/widget-jquery.autocomplete.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/widget-jquery.autocomplete.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-moon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icon-moon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-pc.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icon-pc.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-tb.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icon-tb.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-touch.svg" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/icon-touch.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foot.html" beforeDir="false" afterPath="$PROJECT_DIR$/foot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getOrderInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/getOrderInfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-evaluate.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-evaluate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-receive.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-receive.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-order-send.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-order-send.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-orderDetail.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-orderDetail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-person-collect.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-person-collect.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-person-footmark.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-person-footmark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-address-complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-address-complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-address-phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-address-phone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-address.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-info.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-setting-safe.html" beforeDir="false" afterPath="$PROJECT_DIR$/home-setting-safe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/4/5/145.html" beforeDir="false" afterPath="$PROJECT_DIR$/items/4/5/145.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/items/8/1/81.html" beforeDir="false" afterPath="$PROJECT_DIR$/items/8/1/81.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/axios.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/axios.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/czFunction.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/czFunction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/model/cartModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/model/cartModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/addressList.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/addressList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/city-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/city-picker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/getOrderInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/getOrderInfo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/jquery.slideunlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/jquery.slideunlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/login-manage.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/login-manage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/person-collect.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/person-collect.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/person-footmark.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/person-footmark.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/seckill-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/seckill-index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/shop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/shoplogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/shoplogin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/shortcut.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/shortcut.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/sm-city-picker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/sm-city-picker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/pages/top.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/pages/top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/birthday/birthday.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/birthday/birthday.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/citypicker/distpicker.data.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/citypicker/distpicker.data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/citypicker/distpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/citypicker/distpicker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery-placeholder/jquery.placeholder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.easing/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.jqzoom/jquery.jqzoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery.jqzoom/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery/jquery.cookie.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery/jquery.cookie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/qs.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/qs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/sui/sui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/sui/sui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/plugins/upload/uploadPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/plugins/upload/uploadPreview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/qrcode.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/validate.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vue/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue/vue.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vue/vue.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/vue/vuetify.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/vue/vuetify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/widget/cartPanelView.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/widget/cartPanelView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/widget/jquery.autocomplete.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/widget/jquery.autocomplete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/widget/nav-portal-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/widget/nav-portal-top.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/widget/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/widget/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pay.html" beforeDir="false" afterPath="$PROJECT_DIR$/pay.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payfail.html" beforeDir="false" afterPath="$PROJECT_DIR$/payfail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paysuccess.html" beforeDir="false" afterPath="$PROJECT_DIR$/paysuccess.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/cssgrids/cssgrids-min.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cssgrids/cssgrids-min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery-placeholder/jquery.placeholder.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery-placeholder/jquery.placeholder.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery.easing/jquery.easing.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery.easing/jquery.easing.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery.jqzoom/jquery.jqzoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery.jqzoom/jquery.jqzoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery.jqzoom/zoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery.jqzoom/zoom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/jquery/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/jquery/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/normalize/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/normalize/normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sui/sui-append.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/sui/sui-append.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sui/sui.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/sui/sui.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/sui/sui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/sui/sui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seckill-item.html" beforeDir="false" afterPath="$PROJECT_DIR$/seckill-item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shortcut.html" beforeDir="false" afterPath="$PROJECT_DIR$/shortcut.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/side.html" beforeDir="false" afterPath="$PROJECT_DIR$/side.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success-cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/success-cart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/top.html" beforeDir="false" afterPath="$PROJECT_DIR$/top.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/controller/SearchController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/service/SearchService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/target/classes/application.yml" afterDir="false" />
@@ -147,14 +32,25 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="478" column="7" selection-start-line="478" selection-start-column="7" selection-end-line="478" selection-end-column="7" />
+            <state relative-caret-position="326">
+              <caret line="383" column="32" selection-start-line="383" selection-start-column="32" selection-end-line="383" selection-end-column="32" />
               <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="e#17056#17116#0" />
+                <element signature="e#17260#17324#0" />
+                <element signature="n#script#0;n#html#0;n#!!top" />
+                <element signature="e#18344#18654#0" />
+                <element signature="e#18386#18431#0" />
               </folding>
             </state>
           </provider>
@@ -192,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,6 +99,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -282,17 +178,18 @@
       <workItem from="1586068047236" duration="1678000" />
       <workItem from="1586076546637" duration="661000" />
       <workItem from="1586078974820" duration="989000" />
-      <workItem from="1586080621564" duration="706000" />
+      <workItem from="1586080621564" duration="2037000" />
+      <workItem from="1586143924570" duration="610000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7579000" />
+    <option name="totallyTimeSpent" value="9520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26879272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2741078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -331,14 +228,25 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="478" column="7" selection-start-line="478" selection-start-column="7" selection-end-line="478" selection-end-column="7" />
+        <state relative-caret-position="326">
+          <caret line="383" column="32" selection-start-line="383" selection-start-column="32" selection-end-line="383" selection-end-column="32" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="e#17056#17116#0" />
+            <element signature="e#17260#17324#0" />
+            <element signature="n#script#0;n#html#0;n#!!top" />
+            <element signature="e#18344#18654#0" />
+            <element signature="e#18386#18431#0" />
           </folding>
         </state>
       </provider>
