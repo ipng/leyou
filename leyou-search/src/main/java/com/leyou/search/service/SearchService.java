@@ -133,7 +133,8 @@ public class SearchService {
         }
         NativeSearchQueryBuilder queryBuilder = new NativeSearchQueryBuilder();
 
-        QueryBuilder basicQuery = QueryBuilders.matchQuery("all", request.getKey()).operator(Operator.AND);
+       // QueryBuilder basicQuery = QueryBuilders.matchQuery("all", request.getKey()).operator(Operator.AND);
+        BoolQueryBuilder basicQuery = buildBoolQueryBuilder(request);
 
         queryBuilder.withQuery(basicQuery);
 
@@ -158,6 +159,25 @@ public class SearchService {
         }
 
         return new SearchResult(goodsPage.getTotalElements(), goodsPage.getTotalPages(), goodsPage.getContent(), categories, brands, specs);
+
+    }
+
+    private BoolQueryBuilder buildBoolQueryBuilder(SearchRequest request) {
+        BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
+        boolQueryBuilder.must(QueryBuilders.matchQuery("all",request.getKey()).operator(Operator.AND));
+        Map<String,Object> filter = request.getFilter();
+        for (Map.Entry<String,Object> entry : filter.entrySet()){
+            String key = entry.getKey();
+            if (StringUtils.equals("品牌", key)){
+                key="brandId";
+            }else if (StringUtils.equals("分类",key)){
+                key = "cid3";
+            }else {
+                key = "specs." + key +".keyword";
+            }
+            boolQueryBuilder.filter(QueryBuilders.termQuery(key,entry.getValue()));
+        }
+        return boolQueryBuilder;
 
     }
 

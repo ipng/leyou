@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6890f9f0-a60e-4918-bd6a-d6dd9b9ea3df" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-gateway/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/controller/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/controller/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/pojo/SearchRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/src/main/java/com/leyou/search/service/SearchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-search/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-search/target/classes/com/leyou/search/service/SearchService$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/target/classes/com/leyou/search/service/SearchService$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-search/target/classes/com/leyou/search/service/SearchService$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-search/target/classes/com/leyou/search/service/SearchService$2.class" afterDir="false" />
@@ -32,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="383" column="32" selection-start-line="383" selection-start-column="32" selection-end-line="383" selection-end-column="32" />
+            <state relative-caret-position="-1156">
+              <caret line="347" column="13" lean-forward="true" selection-start-line="347" selection-start-column="13" selection-end-line="347" selection-end-column="13" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -179,12 +178,12 @@
       <workItem from="1586076546637" duration="661000" />
       <workItem from="1586078974820" duration="989000" />
       <workItem from="1586080621564" duration="2037000" />
-      <workItem from="1586143924570" duration="610000" />
+      <workItem from="1586143924570" duration="1242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9520000" />
+    <option name="totallyTimeSpent" value="10152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
@@ -228,8 +227,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="383" column="32" selection-start-line="383" selection-start-column="32" selection-end-line="383" selection-end-column="32" />
+        <state relative-caret-position="-1156">
+          <caret line="347" column="13" lean-forward="true" selection-start-line="347" selection-start-column="13" selection-end-line="347" selection-end-column="13" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
