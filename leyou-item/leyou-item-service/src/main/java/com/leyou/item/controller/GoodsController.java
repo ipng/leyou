@@ -59,5 +59,13 @@ public class GoodsController {
         this.goodsService.updateGoods(spuBo);
         return ResponseEntity.noContent().build();
     }
+    @GetMapping("{id}")
+    public ResponseEntity<Spu> querySpuById(@PathVariable("id")Long id){
+        Spu spu =this.goodsService.querySpuById(id);
+        if (spu==null){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(spu);
+    }
 
 }

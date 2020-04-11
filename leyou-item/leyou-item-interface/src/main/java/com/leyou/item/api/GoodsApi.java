@@ -32,4 +32,8 @@ public interface GoodsApi {
     public List<Sku> querySkusBySpuId(@RequestParam Long id);
 
     @PutMapping("/goods")
-    public void updateGoods(@RequestBody SpuBo spuBo);}
+    public void updateGoods(@RequestBody SpuBo spuBo);
+
+    @GetMapping("{id}")
+    public Spu querySpuById(@PathVariable("id")Long id);
+}
