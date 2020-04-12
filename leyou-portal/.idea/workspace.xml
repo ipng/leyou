@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6890f9f0-a60e-4918-bd6a-d6dd9b9ea3df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/client/BrandClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/client/CategoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/client/GoodsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/client/SpecificationClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/service/GoodsSerive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/service/GoodsHtmlService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-goods-web/src/main/resources/templates/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/resources/templates/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/SpecificationApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-item/leyou-item-interface/src/main/java/com/leyou/item/api/SpecificationApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-item/leyou-item-interface/target/classes/com/leyou/item/api/SpecificationApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-item/leyou-item-interface/target/classes/com/leyou/item/api/SpecificationApi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/SpecificationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-item/leyou-item-service/src/main/java/com/leyou/item/controller/SpecificationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/SpecificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-item/leyou-item-service/src/main/java/com/leyou/item/service/SpecificationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/SpecificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-item/leyou-item-service/target/classes/com/leyou/item/controller/SpecificationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-item/leyou-item-service/target/classes/com/leyou/item/service/SpecificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-item/leyou-item-service/target/classes/com/leyou/item/service/SpecificationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/service/GoodsSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/service/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +53,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/item.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="705" column="29" lean-forward="true" selection-start-line="705" selection-start-column="29" selection-end-line="705" selection-end-column="29" />
+            <state relative-caret-position="275">
+              <caret line="707" lean-forward="true" selection-start-line="707" selection-end-line="707" />
             </state>
           </provider>
         </entry>
@@ -106,8 +96,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,6 +107,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,16 +192,18 @@
       <workItem from="1586151219352" duration="764000" />
       <workItem from="1586152177525" duration="4735000" />
       <workItem from="1586604647900" duration="2400000" />
+      <workItem from="1586657428537" duration="1191000" />
+      <workItem from="1586667766275" duration="1488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18467000" />
+    <option name="totallyTimeSpent" value="21146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2042521" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2118451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -275,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/item.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="705" column="29" lean-forward="true" selection-start-line="705" selection-start-column="29" selection-end-line="705" selection-end-column="29" />
+        <state relative-caret-position="275">
+          <caret line="707" lean-forward="true" selection-start-line="707" selection-end-line="707" />
         </state>
       </provider>
     </entry>

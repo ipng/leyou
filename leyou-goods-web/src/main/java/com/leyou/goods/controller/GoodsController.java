@@ -1,6 +1,6 @@
 package com.leyou.goods.controller;
 
-import com.leyou.goods.service.GoodsSerive;
+import com.leyou.goods.service.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -14,11 +14,15 @@ import java.util.Map;
 @Controller
 public class GoodsController {
     @Autowired
-    private GoodsSerive goodsSerive;
+    private GoodsService goodsService;
+
+    @Autowired
+    private GoodsHtmlService goodsHtmlService;
     @GetMapping("item/{id}.html")
     public String toItemPage(Model model, @PathVariable("id")Long id){
-    Map<String,Object> map =this.goodsSerive.loadData(id);
+    Map<String,Object> map =this.goodsService.loadData(id);
     model.addAllAttributes(map);
+    this.goodsHtmlService.createHtml(id);
         return "item";
     }
 }

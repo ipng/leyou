@@ -11,7 +11,7 @@ import java.util.*;
  * Created by Enzo Cotter on 2020/4/11.
  */
 @Service
-public class GoodsSerive {
+public class GoodsService {
     @Autowired
     private BrandClient brandClient;
     @Autowired
