@@ -9,6 +9,11 @@ spring:
       cluster-nodes: 192.168.133.162:9300
   main:
     allow-bean-definition-overriding: true
+  rabbitmq:
+    host: 192.168.133.162
+    virtual-host: /leyou
+    username: leyou
+    password: leyou
   jackson:
     default-property-inclusion: non_null
 eureka:

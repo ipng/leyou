@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6890f9f0-a60e-4918-bd6a-d6dd9b9ea3df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/service/GoodsHtmlService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/controller/GoodsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/controller/GoodsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/service/GoodsSerive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-goods-web/src/main/java/com/leyou/goods/service/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/item.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="275">
-              <caret line="707" lean-forward="true" selection-start-line="707" selection-end-line="707" />
+              <caret line="707" selection-start-line="707" selection-end-line="707" />
             </state>
           </provider>
         </entry>
@@ -85,8 +82,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="408" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-218" />
+    <option name="y" value="44" />
     <option name="width" value="966" />
     <option name="height" value="620" />
   </component>
@@ -96,6 +94,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,14 +107,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -194,16 +192,17 @@
       <workItem from="1586604647900" duration="2400000" />
       <workItem from="1586657428537" duration="1191000" />
       <workItem from="1586667766275" duration="1488000" />
+      <workItem from="1587184094099" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21146000" />
+    <option name="totallyTimeSpent" value="21166000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2118451" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2156416" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -268,7 +267,7 @@
     <entry file="file://$PROJECT_DIR$/item.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="707" lean-forward="true" selection-start-line="707" selection-end-line="707" />
+          <caret line="707" selection-start-line="707" selection-end-line="707" />
         </state>
       </provider>
     </entry>

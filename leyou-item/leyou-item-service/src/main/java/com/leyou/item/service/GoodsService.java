@@ -7,6 +7,8 @@ import com.leyou.item.bo.SpuBo;
 import com.leyou.item.mapper.*;
 import com.leyou.item.pojo.*;
 import org.apache.commons.lang.StringUtils;
+import org.springframework.amqp.AmqpException;
+import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -36,6 +38,9 @@ public class GoodsService {
     private SkuMapper skuMapper;
     @Autowired
     private StockMapper stockMapper;
+
+    @Autowired
+    private AmqpTemplate amqpTemplate;
 
     public PageResult<SpuBo> querySpuByPage(String key, Boolean saleable, Integer page, Integer rows) {
         Example example=new Example(Spu.class);
@@ -84,6 +89,17 @@ public class GoodsService {
 
 
         saveSkuAndStock(spuBo);
+
+
+        sendMsg("insert",spuBo.getId());
+    }
+
+    private void sendMsg(String type,Long id) {
+        try {
+            this.amqpTemplate.convertAndSend("item.insert"+type,id);
+        } catch (AmqpException e) {
+            e.printStackTrace();
+        }
     }
 
     private void saveSkuAndStock(SpuBo spuBo) {
@@ -140,6 +156,8 @@ public class GoodsService {
         spuBo.setSaleable(null);
         this.spuMapper.updateByPrimaryKeySelective(spuBo);
         this.spuDetailMapper.updateByPrimaryKeySelective(spuBo.getSpuDetail());
+
+        sendMsg("update",spuBo.getId());
 
     }
 

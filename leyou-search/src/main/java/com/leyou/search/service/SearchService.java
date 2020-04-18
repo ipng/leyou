@@ -236,4 +236,14 @@ public class SearchService {
         }).collect(Collectors.toList());
 
     }
+
+    public void save(Long id) throws IOException {
+        Spu spu = this.goodsClient.querySpuById(id);
+        Goods goods = this.bulidGoods(spu);
+        this.goodsRepository.save(goods);
+    }
+
+    public void delete(Long id) {
+        this.goodsRepository.deleteById(id);
+    }
 }
