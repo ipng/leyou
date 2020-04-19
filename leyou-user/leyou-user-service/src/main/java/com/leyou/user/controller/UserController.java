@@ -1,0 +1,25 @@
+package com.leyou.user.controller;
+
+import com.leyou.user.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
+
+/**
+ * Created by Enzo Cotter on 2020/4/19.
+ */
+@Controller
+public class UserController {
+    @Autowired
+    private UserService userService;
+
+    @GetMapping("/check/{data}/{type}")
+    public ResponseEntity<Boolean> checkUserData(@PathVariable("data") String data, @PathVariable(value = "type") Integer type) {
+        Boolean bool = this.userService.checkUser(data, type);
+        if (bool == null) {
+            return ResponseEntity.badRequest().build();
+        }
+        return ResponseEntity.ok(bool);
+    }
+}
