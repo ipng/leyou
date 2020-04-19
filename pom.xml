@@ -31,6 +31,7 @@
         <module>leyou-goods-web</module>
         <module>com-leyou-user</module>
         <module>leyou-user</module>
+        <module>leyou-sms</module>
     </modules>
     <packaging>pom</packaging>
 

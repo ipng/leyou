@@ -8,8 +8,8 @@ spring:
     username: root
     password: root
     driver-class-name: com.mysql.jdbc.Driver
-#  redis:
-#    host: 192.168.133.162
+  redis:
+    host: 192.168.133.162
   rabbitmq:
     host: 192.168.133.162
     virtual-host: leyou
