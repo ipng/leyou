@@ -1,8 +1,9 @@
 package com.leyou.user.controller;
 
+import com.leyou.user.pojo.User;
 import com.leyou.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
+import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,5 +22,15 @@ public class UserController {
             return ResponseEntity.badRequest().build();
         }
         return ResponseEntity.ok(bool);
+    }
+    @PostMapping("code")
+    public ResponseEntity<Void> sendVerifyCode(@RequestParam("phone")String phone){
+        this.userService.sendVerifyCode(phone);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
+    }
+    @PostMapping("register")
+    public ResponseEntity<Void> register(User user,@RequestParam("code")String code){
+        this.userService.register(user,code);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 }

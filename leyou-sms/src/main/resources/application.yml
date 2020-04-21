@@ -11,6 +11,6 @@ spring:
 leyou:
   sms:
     accessKeyId: LTAI4FskspNW8VPWPypEHaMg # 你自己的accessKeyId
-    accessKeySecret: SSHZpISoai8OBLx9OcVAQYo0uMOYZp # 你自己的AccessKeySecret
+    accessKeySecret: SSHZpISoai8OBLx9OcVAQYo0uMOYZp    # 你自己的AccessKeySecret
     signName: leyouMall # 签名名称
     verifyCodeTemplate: SMS_180357186 # 模板名称

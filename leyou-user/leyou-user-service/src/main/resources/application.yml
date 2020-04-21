@@ -12,7 +12,7 @@ spring:
     host: 192.168.133.162
   rabbitmq:
     host: 192.168.133.162
-    virtual-host: leyou
+    virtual-host: /leyou
     username: leyou
     password: leyou
 eureka:

@@ -21,7 +21,7 @@ public class RedisTest {
     @Test
     public void testRedis() {
         // 存储数据
-        this.redisTemplate.opsForValue().set("key1", "value1");
+        this.redisTemplate.opsForValue().set("key12", "value323");
         // 获取数据
         String val = this.redisTemplate.opsForValue().get("key1");
         System.out.println("val = " + val);
@@ -39,8 +39,8 @@ public class RedisTest {
         BoundHashOperations<String, Object, Object> hashOps =
                 this.redisTemplate.boundHashOps("user");
         // 操作hash数据
-        hashOps.put("name", "jack");
-        hashOps.put("age", "21");
+        hashOps.put("name1", "jack3");
+        hashOps.put("age1", "221");
 
         // 获取单个数据
         Object name = hashOps.get("name");
