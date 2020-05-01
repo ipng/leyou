@@ -78,4 +78,20 @@ public class UserService {
         user.setCreated(new Date());
         this.userMapper.insertSelective(user);
     }
+
+    public User queryUser(String username, String password) {
+        User record =new User();
+        record.setUsername(username);
+        User user=this.userMapper.selectOne(record);
+
+        if (user==null){
+            return null;
+        }
+        password= CodecUtils.md5Hex(password,user.getSalt());
+
+        if (StringUtils.equals(password,user.getPassword())){
+            return user;
+        }
+        return null;
+    }
 }

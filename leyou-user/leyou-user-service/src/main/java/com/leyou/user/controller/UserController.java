@@ -7,6 +7,8 @@ import org.springframework.http.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 /**
  * Created by Enzo Cotter on 2020/4/19.
  */
@@ -29,8 +31,16 @@ public class UserController {
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
     @PostMapping("register")
-    public ResponseEntity<Void> register(User user,@RequestParam("code")String code){
+    public ResponseEntity<Void> register(@Valid User user, @RequestParam("code")String code){
         this.userService.register(user,code);
         return ResponseEntity.status(HttpStatus.CREATED).build();
+    }
+    @GetMapping("query")
+    public ResponseEntity<User> queryUser(@RequestParam("username") String username,@RequestParam("password") String password){
+        User user=this.userService.queryUser(username,password);
+        if (user==null){
+           return ResponseEntity.badRequest().build();
+        }
+        return ResponseEntity.ok(user);
     }
 }
